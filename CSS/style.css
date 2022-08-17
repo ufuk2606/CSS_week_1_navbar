@@ -1,0 +1,33 @@
+*{                   /* internet tarayicilarinin basta kabul ettigi degerleri sifirlar.  */
+  margin: 0px;
+  padding: 0px;
+}
+header {                  /*  header etiketine belirli bir yukseklik ve arkaplan rengi verir */
+  height: 100px;
+  background-color: #3c9ae2;
+}
+.box {               /*  box sinifina ait etiketleri sekillendirir */
+  width: 100px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-image: linear-gradient(to right, #3128dd, #c6d0d8);
+}
+h1 {                           /*  h1 etiketine sahip basliklarimizi büyük harflerle yazar */
+  text-transform: uppercase;
+}
+li{                            /*  alt alta gelen liste elementlerini yanyana getirir */
+  display: inline-block;
+}
+a {                           /*  alti cizili kabul edilen a etiketlerinin cizgisini kaldirir */
+  text-decoration: none;
+  display: inline-block;
+}
+#box {                       /*  box id´sine sahip olan elemanin soluna disaridan bosluk verir */
+  margin-left: 40px;
+}
